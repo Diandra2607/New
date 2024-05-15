@@ -1,0 +1,319 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+    
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    padding: 1px 2px;
+  }
+
+.thecontainer {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: lightcyan;
+    color : black;
+}
+
+.kembali{
+    color : black;
+    background-color: lightcyan;
+}
+
+#month{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border-radius: 5px;
+    width : 80px;
+    height : 20px;
+    text-align: center;
+}
+
+#location{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border-radius: 5px;
+    width : 80px;
+    height : 20px;
+    text-align: center;
+}
+
+
+#category{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border-radius: 5px;
+    width : 80px;
+    height : 20px;
+    text-align: center;
+}
+
+@media only screen {
+    * {
+        max-height :600.65px;
+        max-width: 733.33px;
+    }
+  }
+
+.revenue{
+    background-color:yellow;
+    width:6em;
+    height:6em;
+    border-radius:50%;
+    text-align: center;
+    color:black;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:10px;
+    justify-content: center;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.25fr;
+    grid-gap: 2.5px;
+    text-align: center;
+}
+
+.sub-main1{
+position : relative;
+width : 6.25px;
+display: inline-block;
+}
+
+.sub-main2{
+    display: grid;
+    top : 5em;
+    padding : 0.5%;
+    left : -280px;
+    }
+
+.sub-main3{
+        display: grid;
+        top : 5em;
+        right : 5em;
+        padding : 0.5%;
+        float: right;
+        margin : 0.25px auto;
+        }
+
+.most{
+    background-color: lightgoldenrodyellow;
+    border-radius: 2px;
+    width : 170px;
+    height : 50px;
+    text-align: center;
+    color: solid black;
+    margin : 0.1875px auto;
+    font-size :smaller;
+}
+
+.locationnumber, .food{
+text-align-last: center;
+color :rgb(1, 113, 113);
+}
+
+ .price {
+    text-align : center;
+}
+
+.therevenue{
+    position : absolute;
+    width : inherit;
+    height: auto;
+    top : 20%;
+    transform : translateY(-50%);
+    text-align: center;
+}
+
+.numberoflocation{
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+    width : 200px;
+    height : 90px;
+    text-align: center;
+    color: solid black;
+    margin : 0.75px auto;
+    justify-content: center;
+}
+
+.food{
+    text-align-last: right;
+    font-style: italic;
+}
+.locationnumber{
+font-size: small;
+}
+
+.highest{
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+    width : 250px;
+    height : 90px;
+    text-align: center;
+    color: solid black;
+    margin : 0.75px auto;
+}
+
+.july{
+    color :aqua;
+    text-align: center;
+}
+
+.sub-container{
+    background-color: lightgray;
+    border-radius: 2px;
+    width : 150px;
+    height : 60px;
+    text-align: center;
+    margin : 0.1875px auto;
+}
+
+.coca-cola{
+    color : red;
+    font-size :small;
+}
+
+.highestmonthrevenue{
+    text-align: center;
+}
+.monsterenergy{
+    color : lime;
+    font-size :small;
+}
+
+.poland{
+    color : lightskyblue;
+    font-size :small;
+}
+
+.payment{
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+    width : 190px;
+    height : 100px;
+    text-align: center;
+}
+
+.peak{
+    background-color: lightgray;
+    border-radius: 8px;
+    width : 250px;
+    height : 150px;
+    text-align: center;
+    color: solid black;
+}
+
+.locationimage{
+    width : 20px;
+    height : 20px;
+    position: relative;
+    left: -6px;
+}
+
+.product{
+    background-color: lightgray;
+    border-radius: 8px;
+    width : 100px;
+    height : 120px;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    color: solid black;
+}
+
+.totalofproducts{
+    text-align: center;
+}
+
+.calendar{
+    background-color: lightgray;
+    border-radius: 8px;
+    width : 450px;
+    height : 195px;
+    text-align: center;
+    position: relative;
+    left : 600px;
+    color: solid black;
+}
+
+.table thead{
+    background-color: #fe001a;
+    color : white;
+    }
+    
+    .dark-gray{
+        background-color: darkgray;
+    }
+    
+    .gray {
+        background-color: gray;
+    }
+
+    .left{
+        padding : 2px;
+        margin: 2px;
+        background-color: grey;
+        color : white;
+    }
+    
+    .right{
+        padding : 2px;
+        margin: 2px;
+        background-color: grey;
+        color : white;
+    }
+
+    .charttransaction{
+        display: grid;
+        grid-template-columns: 0.25fr 0.25fr;
+        text-align: center;
+        justify-content: center;
+        padding: 2px;
+    }
+
+    .chartcategory{
+        display: grid;
+        grid-template-columns: 0.25fr 0.25fr;
+        text-align: center;
+        justify-content: center;
+        padding: 2px;
+    }
+
+    .chartlocation{
+        display: grid;
+        grid-template-columns: 0.25fr 0.25fr;
+        text-align: center;
+        justify-content: center;
+        padding: 2px;
+    }
+
+    .chartproduct{
+        display: grid;
+        grid-template-columns: 0.25fr 0.25fr;
+        text-align: center;
+        justify-content: center;
+        padding: 2px;
+    }
+
+    .Transaction{
+        background-color: #fe001a;
+        color : white;
+        padding : 25px;
+        margin : 15px;
+        border-radius: 5px;
+    }
+
+    .Product{
+        background-color: #fe001a;
+        color : white;
+        padding : 29px;
+        margin :12px;
+        border-radius: 5px;
+    }
+    

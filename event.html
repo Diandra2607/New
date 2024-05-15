@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type = "text" id = "message"/>
+    <input type = "text" id = "myinput"/>
+    <p id = "text"></p><button id = "btnme">Click Me!</button>
+    <button id = "btnme">Click Me!</button>
+    <button id = "btnadd">Add Element!</button>
+    
+ 
+    <script>
+        const btnme = document.getElementById("btnme");
+       btnme.addEventListener('click',function()
+    {
+        const randomTop = Math.floor(Math.random()*window.innerHeight);
+        const randomLeft = Math.floor(Math.random()*window.innerWidth);
+        btnme.style.top = randomTop + 'px';
+        btnme.style.left = randomTop + 'px';
+        btnme.style.color = 'red';
+    });
+    
+    const input = document.getElementById("message");
+    input.addEventListener('keypress', function(event){
+        text.innerHTML = 'key = ' + event.key + ', code = ' +event.code;
+    })
+    const myinput = document.getElementById("myinput");
+    myinput.addEventListener('keydown', function(event){
+        if(event,key === 'Enter') {
+            alert('Enter key pressed');
+        }
+    });
+
+    let number = 1;
+    const btnadd = document.getElementById("btnadd");
+    btnadd.addEventListener('click', function(){
+        let newParagraph = document.createElement('p');
+        newParagraph.innerHTML = 'Apa ya ' + number;
+        number++;
+        document.body.appendChild(newParagraph);
+    });
+    </script>
+</body>
+</html>
