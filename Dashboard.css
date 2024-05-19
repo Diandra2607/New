@@ -1,6 +1,4 @@
 * {
-    padding : 0;
-    margin : 0;
     box-sizing: border-box;
     
 }
@@ -106,7 +104,7 @@ display: inline-block;
     background-color: lightgoldenrodyellow;
     border-radius: 2px;
     width : 170px;
-    height : 50px;
+    height : 70px;
     text-align: center;
     color: solid black;
     margin : 0.1875px auto;
@@ -134,11 +132,11 @@ color :rgb(1, 113, 113);
 .numberoflocation{
     background-color: lightgoldenrodyellow;
     border-radius: 8px;
-    width : 200px;
-    height : 90px;
+    width :170px;
+    height : 80px;
     text-align: center;
     color: solid black;
-    margin : 0.75px auto;
+    margin :0.1875px auto;
     justify-content: center;
 }
 
@@ -147,17 +145,17 @@ color :rgb(1, 113, 113);
     font-style: italic;
 }
 .locationnumber{
-font-size: small;
+font-size: 17px;
 }
 
 .highest{
     background-color: lightgoldenrodyellow;
     border-radius: 8px;
-    width : 250px;
-    height : 90px;
+    width : 170px;
+    height : 80px;
     text-align: center;
     color: solid black;
-    margin : 0.75px auto;
+    margin : 0.1875px auto;
 }
 
 .july{
@@ -168,8 +166,8 @@ font-size: small;
 .sub-container{
     background-color: lightgray;
     border-radius: 2px;
-    width : 150px;
-    height : 60px;
+    width : 170px;
+    height : 80px;
     text-align: center;
     margin : 0.1875px auto;
 }
@@ -242,78 +240,33 @@ font-size: small;
     color: solid black;
 }
 
-.table thead{
-    background-color: #fe001a;
-    color : white;
-    }
-    
-    .dark-gray{
-        background-color: darkgray;
-    }
-    
-    .gray {
-        background-color: gray;
-    }
+#pagination {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr  0.5fr 0.5fr 0.5fr  0.5fr 0.5fr 0.5fr;
+    color: black;
+}
 
-    .left{
-        padding : 2px;
-        margin: 2px;
-        background-color: grey;
-        color : white;
-    }
-    
-    .right{
-        padding : 2px;
-        margin: 2px;
-        background-color: grey;
-        color : white;
-    }
+#table {
+    background-color: aqua;
+    color : black;
+}
 
-    .charttransaction{
-        display: grid;
-        grid-template-columns: 0.25fr 0.25fr;
-        text-align: center;
-        justify-content: center;
-        padding: 2px;
-    }
+th {
+    background-color: floralwhite;
+}
 
-    .chartcategory{
-        display: grid;
-        grid-template-columns: 0.25fr 0.25fr;
-        text-align: center;
-        justify-content: center;
-        padding: 2px;
-    }
 
-    .chartlocation{
-        display: grid;
-        grid-template-columns: 0.25fr 0.25fr;
-        text-align: center;
-        justify-content: center;
-        padding: 2px;
-    }
+.Transaction{
+    background-color: palegreen;
+    width: 80px;
+    height:90px;
+    border-radius:5px;
+}
 
-    .chartproduct{
-        display: grid;
-        grid-template-columns: 0.25fr 0.25fr;
-        text-align: center;
-        justify-content: center;
-        padding: 2px;
-    }
+.productcard {
+    background-color: palegreen;
+    width: 80px;
+    height:90px;
+    border-radius:5px;
+}
 
-    .Transaction{
-        background-color: #fe001a;
-        color : white;
-        padding : 25px;
-        margin : 15px;
-        border-radius: 5px;
-    }
-
-    .Product{
-        background-color: #fe001a;
-        color : white;
-        padding : 29px;
-        margin :12px;
-        border-radius: 5px;
-    }
-    

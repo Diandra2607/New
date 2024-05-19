@@ -1,0 +1,65 @@
+[{
+  "Season": "AUTUMN",
+  "Category": "Non Carbonated",
+  "f0_": "853.0"
+}, {
+  "Season": "AUTUMN",
+  "Category": "Food",
+  "f0_": "2578.25"
+}, {
+  "Season": "AUTUMN",
+  "Category": "Water",
+  "f0_": "254.0"
+}, {
+  "Season": "AUTUMN",
+  "Category": "Carbonated",
+  "f0_": "1034.0"
+}, {
+  "Season": "SPRING",
+  "Category": "Food",
+  "f0_": "2751.25"
+}, {
+  "Season": "SPRING",
+  "Category": "Carbonated",
+  "f0_": "1200.25"
+}, {
+  "Season": "SPRING",
+  "Category": "Non Carbonated",
+  "f0_": "925.0"
+}, {
+  "Season": "SPRING",
+  "Category": "Water",
+  "f0_": "426.25"
+}, {
+  "Season": "SUMMER",
+  "Category": "Carbonated",
+  "f0_": "1452.5"
+}, {
+  "Season": "SUMMER",
+  "Category": "Food",
+  "f0_": "3183.75"
+}, {
+  "Season": "SUMMER",
+  "Category": "Water",
+  "f0_": "326.25"
+}, {
+  "Season": "SUMMER",
+  "Category": "Non Carbonated",
+  "f0_": "1178.5"
+}, {
+  "Season": "WINTER",
+  "Category": "Carbonated",
+  "f0_": "809.75"
+}, {
+  "Season": "WINTER",
+  "Category": "Food",
+  "f0_": "1504.75"
+}, {
+  "Season": "WINTER",
+  "Category": "Non Carbonated",
+  "f0_": "405.5"
+}, {
+  "Season": "WINTER",
+  "Category": "Water",
+  "f0_": "207.25"
+}]
