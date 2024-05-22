@@ -1,20 +1,19 @@
 * {
     box-sizing: border-box;
-    
+   
 }
 
 a {
     text-decoration: none;
-    display: flex;
     padding: 1px 2px;
+  display: flex;
   }
 
 .thecontainer {
     display: grid;
     grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
-    text-align: center;
-    justify-content: center;
-    padding: 5px;
+   text-align: left;
+    padding: 5px 5px;
     background-color: lightcyan;
     color : black;
 }
@@ -55,19 +54,19 @@ a {
 @media only screen {
     * {
         max-height :600.65px;
-        max-width: 733.33px;
+        max-width: 1333.33px;
     }
   }
 
 .revenue{
     background-color:yellow;
-    width:6em;
-    height:6em;
+    width:20em;
+    height:20em;
     border-radius:50%;
     text-align: center;
     color:black;
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight:10px;
+    font-weight:80px;
     justify-content: center;
 }
 
@@ -124,7 +123,7 @@ color :rgb(1, 113, 113);
     position : absolute;
     width : inherit;
     height: auto;
-    top : 20%;
+    top : 50%;
     transform : translateY(-50%);
     text-align: center;
 }
@@ -138,6 +137,7 @@ color :rgb(1, 113, 113);
     color: solid black;
     margin :0.1875px auto;
     justify-content: center;
+    font-size: smaller;
 }
 
 .food{
@@ -151,11 +151,12 @@ font-size: 17px;
 .highest{
     background-color: lightgoldenrodyellow;
     border-radius: 8px;
-    width : 170px;
+    width : 175px;
     height : 80px;
     text-align: center;
     color: solid black;
     margin : 0.1875px auto;
+    font-size: smaller;
 }
 
 .july{
@@ -179,6 +180,7 @@ font-size: 17px;
 
 .highestmonthrevenue{
     text-align: center;
+    font-size: smaller;
 }
 .monsterenergy{
     color : lime;
@@ -193,9 +195,10 @@ font-size: 17px;
 .payment{
     background-color: lightgoldenrodyellow;
     border-radius: 8px;
-    width : 190px;
-    height : 100px;
+    width : 170px;
+    height : 80px;
     text-align: center;
+    font-size: smaller;
 }
 
 .peak{
@@ -217,12 +220,11 @@ font-size: 17px;
 .product{
     background-color: lightgray;
     border-radius: 8px;
-    width : 100px;
-    height : 120px;
+    width : 80px;
+    height : 100px;
     text-align: center;
-    display: flex;
-    align-items: flex-start;
     color: solid black;
+    font-size: smaller;
 }
 
 .totalofproducts{
@@ -232,12 +234,13 @@ font-size: 17px;
 .calendar{
     background-color: lightgray;
     border-radius: 8px;
-    width : 450px;
-    height : 195px;
+    width : 200px;
+    height : 153px;
     text-align: center;
     position: relative;
     left : 600px;
     color: solid black;
+    font-size: smaller;
 }
 
 #pagination {
@@ -256,17 +259,24 @@ th {
 }
 
 
-.Transaction{
-    background-color: palegreen;
-    width: 80px;
-    height:90px;
-    border-radius:5px;
+
+.charttransaction {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    padding: 12px 12px;
+    color : black;
 }
 
-.productcard {
-    background-color: palegreen;
-    width: 80px;
-    height:90px;
-    border-radius:5px;
+.chartproduct {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    padding: 12px 12px;
+    color : black;
 }
 
+.chartcategory {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    padding: 12px 12px;
+    color : black;
+}

@@ -6,6 +6,12 @@
     <link rel="stylesheet" href="Dashboard.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src= 
+    "https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"> 
+        </script> 
+        <script src= 
+    "https://cdn.jsdelivr.net/npm/chart.js@4.0.1/dist/chart.umd.min.js"> 
+        </script> 
     <title>Dashboard</title>
 </head>
 <body>
@@ -61,8 +67,8 @@
           
                     <div class = "revenue">
                         <div class = "therevenue">
-                            <h3>REVENUE</h2>
-                            <h3>$19,094</h1>
+                            <h1>REVENUE</h1>
+                            <h1>$19,094</h1>
                         </div>
                         
                     </div>
@@ -87,7 +93,7 @@
             
                     <div class = "sub-main3">
                         <section class = "numberoflocation">
-                            <h3 class = "number">Number of Location</h2>
+                            <h3 class = "number">Number of Location</h3>
                             <h1 class = "locationnumber"><img class = "locationimage" src = "https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3JtNDY3YmF0Y2gyLWxvY2F0aW9uLTAwMS5wbmc.png">4</h1>
                         </section>
                 
@@ -100,7 +106,7 @@
                     <div class = "sub-main4">
                         <section class = "highest">
                             <h3 class = "month">Highest Month Revenue</h3>
-                            <h2 class = "july">JULY</h1>
+                            <h3 class = "july">JULY</h3>
                         </section>
             
             
@@ -133,52 +139,40 @@
                  
 
             <div class = "charttransaction">
-                <canvas id = "myChart" style="width:100%;max-width:300px">
+                <canvas id = "myChart" style="width:100%;max-width: 600px; height : 100%; max-height: 300px;">
                     </canvas>
-                    <section class = "Transaction">
-                        Transcation
-                        <h1 class = "9614">
-                            9614
-                        </h1>
-                    </section>
-                    <canvas id = "theChart" style="width:100%;max-width:300px">
+                    <canvas id = "barChart" style="width:100%;max-width: 300px; height : 100%; max-height: 300px;">
                     </canvas>
             </div>
+
+            <div class = "chartproduct">
+                <div id = "producttable">
+                    <table id="table">
+                        <tr>
+                            <th>Lokasi</th>
+                            <th>Produk</th>
+                            <th>Total</th>
+                        </tr>
+                       </table>
+                       <div id="pagination"></div> 
+                </div>
+              
+               <canvas id="stackedChartproduct" style="width:100%;max-width: 300px; height : 100%; max-height: 300px;"></canvas> 
+              </div>
             
               <div class = "chartcategory">
-                <canvas id = "pieChart" style="width:100%;max-width:300px">
+                <canvas id = "pieChart" style="width:100%;max-width: 300px; height : 100%; max-height: 300px;">
                 </canvas>
+
+                <canvas id="stackedChartcategory" style="width:100%;max-width: 300px; height : 100%; max-height: 300px;"></canvas> 
               </div>
 
-              <div class = "chartlocation">
-                <canvas id = "barChart" style="width:100%;max-width:300px">
-                </canvas>
-              </div>
+            
 
 
-              <div class = "chartproduct">
-                <div class = "productcard">
-                    Product
-                    <h1 class = "184">
-                     184
-                 </h1>
-                 </div>
-                <div id = "producttable">
-                    
-                </div>
-               <table id="table">
-                <tr>
-                    <th>Lokasi</th>
-                    <th>Produk</th>
-                    <th>Total</th>
-                </tr>
-               </table>
-               <div id="pagination"></div> 
-              </div>
+             
                
-               
-                
-
+        </div>
                 
 </body>
 <script src ="Dashboard.js">

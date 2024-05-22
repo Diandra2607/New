@@ -19,7 +19,7 @@ new Chart("myChart", {
     },
     {
       data: [94,104,88,67,61,70,70,126,109,83,99,63],
-      borderColor: "darkgray",
+      borderColor: "darkblue",
       fill: false
     }]
   },
@@ -28,29 +28,29 @@ new Chart("myChart", {
   }
 });
 
-let x= [1,2,3,4,5,6,7,8,9,10,11,12];
-let y = [884,909,1135,1623,1656,2025,2281,2110,1754,1693,1625,1403];
+let locationbar = ["GuttenPlans","EB Public Library","Brunswick Sq Mall","Earle Asphalt"];
+let locationvalue = [7001.25,6833.75,3428,1827.25];
+let locationcolor = ["red","black","gray","darkblue"];
 
-
-new Chart("theChart", {
-  type: "line",
+new Chart("barChart", {
+  type: "bar",
   data: {
-    labels: x,
+    labels: locationbar,
     datasets: [{
-      fill: false,
-      lineTension: 0,
-      backgroundColor: "rgba(0,0,255,1.0)",
-      borderColor: "rgba(0,0,255,0.1)",
-      data: y
+      backgroundColor: locationcolor,
+      data: locationvalue
     }]
   },
   options: {
     legend: {display: false},
-    scales: {
-      y: [{ticks: {min: 884, max:2281}}],
+    title: {
+      display: true,
+      text: "Total Revenue of Location"
     }
   }
 });
+
+
 
 let category = ["Food","Carbonated","Non Carbonated","Water"];
 let categoryValue = [0.574,0.221,0.134,0.07];
@@ -78,27 +78,7 @@ new Chart("pieChart", {
   }
 });
 
-let locationbar = ["GuttenPlans","EB Public Library","Brunswick Sq Mall","Earle Asphalt"];
-let locationvalue = [7006,6834,3428,1827];
-let locationcolor = ["red","black","gray","darkgray"];
 
-new Chart("barChart", {
-  type: "bar",
-  data: {
-    labels: locationbar,
-    datasets: [{
-      backgroundColor: locationcolor,
-      data: locationvalue
-    }]
-  },
-  options: {
-    legend: {display: false},
-    title: {
-      display: true,
-      text: "Total Revenue of Location"
-    }
-  }
-});
 
 
 
@@ -1559,10 +1539,93 @@ const rowsPerPage = 10;
         displayTable(currentPage); 
 
 
+        let productbar = document.getElementById( 
+          "stackedChartproduct");
+          let stackedbarproduct = new Chart(productbar, { 
+            type: 'bar', 
+            data: { 
+                labels: ["AUTUMN", "SPRING", "SUMMER",  
+                    "WINTER"], 
+                datasets: [{ 
+                    label: 'Non Carbonated', 
+                    backgroundColor: "green", 
+                    data: [853, 925, 1178.5, 405.5]
+                }, { 
+                    label: 'Carbonated', 
+                    backgroundColor: "red", 
+                    data: [1034,1200.25, 1452.5, 809.75]
+                }, { 
+                    label: 'Food', 
+                    backgroundColor: "yellow", 
+                    data: [2578.25, 2751.25, 3183.75, 1504.75] },
+                    {
+                    label: 'Water', 
+                    backgroundColor: "blue", 
+                    data: [254,426.25, 326.25, 207.25]
+                }], 
+            }, 
+            options: { 
+                plugins: { 
+                    title: { 
+                        display: true, 
+                        text: 'Product per season' 
+                    }, 
+                }, 
+                scales: { 
+                    x: { 
+                        stacked: true, 
+                    }, 
+                    y: { 
+                        stacked: true 
+                    } 
+                } 
+            } 
+        }); 
+
+        let categorybar = document.getElementById( 
+          "stackedChartcategory");
+          let stackedbarcategory = new Chart(categorybar, { 
+            type: 'bar', 
+            data: { 
+                labels: ["GuttenPlans","EB Public Library","Brunswick Sq Mall","Earle Asphalt"], 
+                datasets: [{ 
+                    label: 'Non Carbonated', 
+                    backgroundColor: "pink", 
+                    data: [9, 21, 25, 7]
+                }, { 
+                    label: 'Carbonated', 
+                    backgroundColor: "lavender", 
+                    data: [5,2,7, 2]
+                }, { 
+                    label: 'Food', 
+                    backgroundColor: "deepskyblue", 
+                    data: [64, 76, 62, 55] },
+                    {
+                    label: 'Water', 
+                    backgroundColor: "yellow", 
+                    data: [0,3, 3, 6]
+                }], 
+            }, 
+            options: { 
+                plugins: { 
+                    title: { 
+                        display: true, 
+                        text: 'Product per season' 
+                    }, 
+                }, 
+                scales: { 
+                    x: { 
+                        stacked: true, 
+                    }, 
+                    y: { 
+                        stacked: true 
+                    } 
+                } 
+            } 
+        }); 
 
 
-
-
+       
 
 
 

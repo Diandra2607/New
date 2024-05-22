@@ -1,0 +1,641 @@
+[{
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Wonderful Pistachios - Variety",
+  "total": "14"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Wonderful Pistachios - Variety",
+  "total": "6"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Wonderful Pistachios - Variety",
+  "total": "2"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Vitamin Water - XXX Acai BB Pomegranate",
+  "total": "7"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Vitamin Water - Squeezed Lemonade",
+  "total": "1"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Vitamin Water - Squeezed Lemonade",
+  "total": "4"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Vitamin Water - Ice Cool Blue Lavender",
+  "total": "1"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "V8 Vegetable Juice - Original",
+  "total": "4"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Teddy Grahams - Go Paks",
+  "total": "1"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Takis - Hot Chilli Pepper \u0026 Lime",
+  "total": "20"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Takis - Hot Chilli Pepper \u0026 Lime",
+  "total": "15"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Sunkist Soda - Orange",
+  "total": "20"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "SunChips Multigrain - Salsa",
+  "total": "4"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "SunChips Multigrain - Salsa",
+  "total": "4"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "SunChips Multigrain - Original",
+  "total": "9"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "SunChips Multigrain - Original",
+  "total": "8"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "SunChips Multigrain - Harvest Cheddar",
+  "total": "11"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Stretch Island Fruit Leathers Snacks - Variet",
+  "total": "1"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Starbucks Doubleshot Energy - Mocha",
+  "total": "13"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Spindrift - Sparkling Water - Pineapple",
+  "total": "8"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Spindrift - Sparkling Water - Pineapple",
+  "total": "5"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Spindrift - Sparkling Water  Lime",
+  "total": "4"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Snyder\u0027s of Hanover Pretzel Pieces - Hot Buff",
+  "total": "10"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Snyder\u0027s of Hanover Pretzel Pieces - Honey Mu",
+  "total": "6"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Snapple Tea - Raspberry",
+  "total": "10"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Snapple Diet Tea - Raspberry",
+  "total": "6"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Snapple Diet Tea - Peach Tea",
+  "total": "5"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Snapple Diet Tea - Peach Tea",
+  "total": "11"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Snapple Diet Tea - Peach Tea",
+  "total": "8"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Snapple Diet Tea - Lemon",
+  "total": "9"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Snapple Diet Tea - Lemon",
+  "total": "10"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Skippy Peanut Butter - Go Paks",
+  "total": "1"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Seapoint Farms Dry Roasted Edamame - Wasabi",
+  "total": "5"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "S. Pellegrino Sparkling Mineral Water",
+  "total": "6"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Robert Irvine\u0027s - Fit Crunch -  Chocolate Pea",
+  "total": "6"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Robert Irvine\u0027s - Fit Crunch -  Chocolate Pea",
+  "total": "9"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Robert Irvine\u0027s - Fit Crunch -  Chocolate Pea",
+  "total": "1"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Ritz Bits Cheese",
+  "total": "7"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Red Bull - Original",
+  "total": "16"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Red Bull - Energy Drink - Sugar Free",
+  "total": "2"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Red Bull - Energy Drink - Sugar Free",
+  "total": "4"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "RXBAR - Protein Bar - Peanut Butter",
+  "total": "5"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "RXBAR - Protein Bar - Chocolate Sea Salt",
+  "total": "3"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Pop Corners - White Cheddar",
+  "total": "13"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Pop Corners - White Cheddar",
+  "total": "3"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Pop Corners - Sweet \u0026 Salty Kettle",
+  "total": "2"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Pop Corners - Spicy Queso",
+  "total": "4"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Pop Corners - Spicy Queso",
+  "total": "4"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Pop Corners - Spicy Queso",
+  "total": "2"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Pop Corners - Sea Salt",
+  "total": "6"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Pop Corners - Sea Salt",
+  "total": "5"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Pop Corners - Sea Salt",
+  "total": "1"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Pop Corners - Kettle Corn",
+  "total": "8"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Poland Springs Water",
+  "total": "33"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Poland Springs Water",
+  "total": "18"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Oreo Single Server 6 ct",
+  "total": "1"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Oreo Mini - Go Paks",
+  "total": "8"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Oreo Mini",
+  "total": "3"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Oreo Mini",
+  "total": "7"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Oreo Mini",
+  "total": "1"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Nutri Grain Apple Cinnamon",
+  "total": "19"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Newtons Fig Bar",
+  "total": "4"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Newtons Fig Bar",
+  "total": "1"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Monster Energy Original",
+  "total": "20"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Monster Energy Original",
+  "total": "11"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Miss Vickie\u0027s Potato Chip - Smokehouse BBQ",
+  "total": "4"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Miss Vickie\u0027s Potato Chip - Sea Salt Original",
+  "total": "3"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Miss Vickie\u0027s Potato Chip - Sea Salt \u0026 Vinega",
+  "total": "5"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Miss Vickie\u0027s Potato Chip - Lime \u0026 Cracked Pe",
+  "total": "1"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Miss Vickie\u0027s Potato Chip - Jalapeno",
+  "total": "2"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Mini Chips Ahoy - Go Paks",
+  "total": "5"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Mini Chips Ahoy",
+  "total": "7"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Lenny \u0026 Larrys - SnickerDoodle",
+  "total": "2"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Lenny \u0026 Larrys - Chocolate Chip",
+  "total": "10"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Lays - Classic",
+  "total": "8"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "KitKat - Crisp Wafers",
+  "total": "26"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "KitKat - Crisp Wafers",
+  "total": "1"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "KitKat - Crisp Wafers",
+  "total": "5"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Kinder - Bueno - Crispy Creamy Chocolate",
+  "total": "2"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Kinder - Bueno - Crispy Creamy Chocolate",
+  "total": "18"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Keto Krisp - Almond Butter",
+  "total": "1"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Keto Bar - Creamy Peanut Butter Chocolate",
+  "total": "2"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Keep Healthy - Chocolate Fudge",
+  "total": "2"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Ice Breakers Ice Cubes - PepperMint",
+  "total": "4"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Iberia Coconut Water",
+  "total": "7"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Iberia Coconut Water",
+  "total": "3"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Hungry Buddha - Coconut Cocoa",
+  "total": "2"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Hungry Buddha - Chocolate Chip",
+  "total": "1"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Good Health Veggie Stix - Zesty Ranch",
+  "total": "3"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Goldfish Baked - Cheddar",
+  "total": "18"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Genius Keto Bar - Chocolate Dream",
+  "total": "10"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Funyuns - Flaming Hot",
+  "total": "6"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Fritos - Original",
+  "total": "12"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Doritos Spicy Nacho",
+  "total": "7"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Coca Cola - Zero Sugar",
+  "total": "39"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Coca Cola - Zero Sugar",
+  "total": "20"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Coca Cola - Zero Sugar",
+  "total": "24"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "Coca Cola - Zero Sugar",
+  "total": "1"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Chum Fruit Bites - Mango/Strawberry",
+  "total": "2"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Chum Fruit Bites - Mango/Strawberry",
+  "total": "2"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Chesters Fries Flaming hot",
+  "total": "8"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "CheezIt - White Cheddar",
+  "total": "7"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "CheezIt - White Cheddar",
+  "total": "2"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "CheezIt - White Cheddar",
+  "total": "3"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "CheezIt - Original",
+  "total": "5"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "CheezIt - Go Paks",
+  "total": "6"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "CheezIt - Double Cheese",
+  "total": "5"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "TransMonth": "5",
+  "Produk": "CheezIt - Cheddar Sour Cream and Onion",
+  "total": "7"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "CheezIt - Cheddar Sour Cream and Onion",
+  "total": "1"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Cheetos Puffs",
+  "total": "7"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Cheetos Flaming Hot Limon Crunchy",
+  "total": "5"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Cheetos Cheddar Jalapeno",
+  "total": "3"
+}, {
+  "Lokasi": "GuttenPlans",
+  "TransMonth": "5",
+  "Produk": "Cheetos - Fleming Hot Crunchy",
+  "total": "3"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Bubly - Mango",
+  "total": "3"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Bubly - Lime",
+  "total": "3"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Bubly - Cherry",
+  "total": "2"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "BodyArmor LYTE - Strawberry Lemonade",
+  "total": "4"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "BodyArmor LYTE  - Peach Mango",
+  "total": "1"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "BodyArmor  LYTE - Blueberry Pomegranate",
+  "total": "1"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Belvita Snack Packs - Blueberry",
+  "total": "2"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Belvita Snack Packs - Blueberry",
+  "total": "15"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Belvita Snack Bites - Cinnamon BS Go Paks",
+  "total": "1"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Belvita Breakfast Biscuit Bites - Blueberry",
+  "total": "1"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Bai Lemonade - Burundi Blueberry",
+  "total": "6"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Bai Antioxidant - Tanzania Lemon Super Tea",
+  "total": "7"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Bai Antioxidant - Molokai Coconut",
+  "total": "2"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Produk": "Autumns Granola Bar - Cinnamon Almond",
+  "total": "1"
+}, {
+  "Lokasi": "EB Public Library",
+  "TransMonth": "5",
+  "Produk": "Autumns Granola Bar - Cinnamon Almond",
+  "total": "2"
+}]

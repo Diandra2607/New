@@ -1,0 +1,67 @@
+[{
+  "Location": "GuttenPlans",
+  "TransMonth": "1",
+  "Season": "WINTER",
+  "Category": "Food",
+  "Revenue": "215.25"
+}, {
+  "Location": "GuttenPlans",
+  "TransMonth": "1",
+  "Season": "WINTER",
+  "Category": "Carbonated",
+  "Revenue": "202.0"
+}, {
+  "Location": "Earle Asphalt",
+  "TransMonth": "1",
+  "Season": "WINTER",
+  "Category": "Food",
+  "Revenue": "136.0"
+}, {
+  "Location": "Brunswick Sq Mall",
+  "TransMonth": "1",
+  "Season": "WINTER",
+  "Category": "Food",
+  "Revenue": "83.5"
+}, {
+  "Location": "Brunswick Sq Mall",
+  "TransMonth": "1",
+  "Season": "WINTER",
+  "Category": "Carbonated",
+  "Revenue": "56.0"
+}, {
+  "Location": "Brunswick Sq Mall",
+  "TransMonth": "1",
+  "Season": "WINTER",
+  "Category": "Non Carbonated",
+  "Revenue": "54.5"
+}, {
+  "Location": "Brunswick Sq Mall",
+  "TransMonth": "1",
+  "Season": "WINTER",
+  "Category": "Water",
+  "Revenue": "53.75"
+}, {
+  "Location": "GuttenPlans",
+  "TransMonth": "1",
+  "Season": "WINTER",
+  "Category": "Non Carbonated",
+  "Revenue": "45.5"
+}, {
+  "Location": "Earle Asphalt",
+  "TransMonth": "1",
+  "Season": "WINTER",
+  "Category": "Non Carbonated",
+  "Revenue": "28.5"
+}, {
+  "Location": "Earle Asphalt",
+  "TransMonth": "1",
+  "Season": "WINTER",
+  "Category": "Carbonated",
+  "Revenue": "6.0"
+}, {
+  "Location": "Earle Asphalt",
+  "TransMonth": "1",
+  "Season": "WINTER",
+  "Category": "Water",
+  "Revenue": "2.5"
+}]

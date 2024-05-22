@@ -1,0 +1,85 @@
+[{
+  "Location": "EB Public Library",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Food",
+  "Revenue": "435.0"
+}, {
+  "Location": "GuttenPlans",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Food",
+  "Revenue": "242.0"
+}, {
+  "Location": "GuttenPlans",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Carbonated",
+  "Revenue": "199.5"
+}, {
+  "Location": "EB Public Library",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Non Carbonated",
+  "Revenue": "139.75"
+}, {
+  "Location": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Food",
+  "Revenue": "110.75"
+}, {
+  "Location": "Earle Asphalt",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Food",
+  "Revenue": "105.75"
+}, {
+  "Location": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Non Carbonated",
+  "Revenue": "79.25"
+}, {
+  "Location": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Water",
+  "Revenue": "78.0"
+}, {
+  "Location": "GuttenPlans",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Non Carbonated",
+  "Revenue": "75.0"
+}, {
+  "Location": "Brunswick Sq Mall",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Carbonated",
+  "Revenue": "70.0"
+}, {
+  "Location": "EB Public Library",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Water",
+  "Revenue": "63.5"
+}, {
+  "Location": "EB Public Library",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Carbonated",
+  "Revenue": "53.0"
+}, {
+  "Location": "Earle Asphalt",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Water",
+  "Revenue": "2.5"
+}, {
+  "Location": "Earle Asphalt",
+  "TransMonth": "5",
+  "Season": "SPRING",
+  "Category": "Carbonated",
+  "Revenue": "1.5"
+}]
