@@ -78,10 +78,6 @@ new Chart("pieChart", {
   }
 });
 
-
-
-
-
 let data = [{
   "Lokasi": "Brunswick Sq Mall",
   "Produk": "Poland Springs Water",
@@ -1476,68 +1472,15 @@ let data = [{
   "total": "1"
 }];
 
-const rowsPerPage = 10; 
-        let currentPage = 1; 
-  
-  
-        function displayTable(page) { 
-            const table = document.getElementById("table"); 
-            const startIndex = (page - 1) * rowsPerPage; 
-            const endIndex = startIndex + rowsPerPage; 
-            const slicedData = data.slice(startIndex, endIndex); 
-  
-            // Clear existing table rows 
-            table.innerHTML = ` 
-            <tr>
-            <th>Lokasi</th>
-            <th>Produk</th>
-            <th>Total</th>
-        </tr>
-    `; 
-  
-            // Add new rows to the table 
-            slicedData.forEach(item => { 
-                const row = table.insertRow(); 
-                const lokasiCell = row.insertCell(0); 
-                const produkCell = row.insertCell(1); 
-                const totalCell = row.insertCell(2); 
-               lokasiCell.innerHTML = item.Lokasi; 
-                produkCell.innerHTML = item.Produk; 
-                totalCell.innerHTML = item.total; 
-                if(row%2) {
-                  row.style.backgroundColor = "white";
-                } else {
-                  row.style.backgroundColor = "lightgrey";
-                }
-            }); 
-  
-            // Update pagination 
-            updatePagination(page); 
-        } 
-  
-        function updatePagination(currentPage) { 
-            const pageCount = Math.ceil(data.length / rowsPerPage); 
-            const paginationContainer = document.getElementById("pagination"); 
-            paginationContainer.innerHTML = ""; 
-  
-            for (let i = 1; i <= pageCount; i++) { 
-                const pageLink = document.createElement("a"); 
-                pageLink.href = "#"; 
-                pageLink.innerText = i; 
-                pageLink.onclick = function () { 
-                    displayTable(i); 
-                }; 
-                if (i === currentPage) { 
-                    pageLink.style.fontWeight = "bold"; 
-                } 
-                paginationContainer.appendChild(pageLink); 
-                paginationContainer.appendChild(document.createTextNode(" ")); 
-            } 
-        } 
-  
-        // Initial display 
-        displayTable(currentPage); 
-
+$(document).ready(function(){  
+  $('#top').DataTable({  
+       "ajax"     :     "data.json",  
+       "columns"     :     [  
+            {     "data"     :     "Produk"},  
+            {     "data"     :     "total"}  
+       ]  
+  });  
+});  
 
         let productbar = document.getElementById( 
           "stackedChartproduct");
@@ -1624,8 +1567,6 @@ const rowsPerPage = 10;
             } 
         }); 
 
-
-       
 
 
 
