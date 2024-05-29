@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Reddit Mono","Arial";
+}
+h1 {
+    color: yellow;
+    transition : color 0.3s ease;
+}
+
+h1:hover{
+    color: green;
+}
+
+img {
+    border-style: 1px solid black;
+    height: 200px;
+}
+
+img:hover{
+    height: 220px;
+    transition: height 0.5s ease, width 2s ease, opacity 2s ease-out;
+}
