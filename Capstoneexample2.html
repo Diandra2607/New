@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capstone Example Table</title>
+    <link rel="stylesheet" href="Capstoneexample2.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Capstoneexample2.js"></script>
+</head>
+<body>
+    <h1>Vending Machine Data</h1>
+    <hr class="hr">
+    <div class="body-chart">
+        <div class="filter-section">
+            <p class="section-text">REVENUE</p>
+            <div class="filters">
+                <select class="dropdown" id="month-filter">
+                    <option value="">Month</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+                <select class="dropdown" id="location-filter">
+                    <option value="">Location</option>
+                    <option value="GuttenPlans">Gutten Plans</option>
+                    <option value="EB Public Library">EB Public Library</option>
+                    <option value="Brunswick Sq Mall">Brunswick Sq Mall</option>
+                    <option value="Earle Asphalt">Earle Asphalt</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="container-chart">
+            <div class="chart-container">
+                <h3 class="chart-title">Revenue per Month</h3>
+                <canvas id="lineChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3 class="chart-title">Total Revenue of Location</h3>
+                <canvas id="barChart"></canvas>
+            </div>   
+        </div>
+
+        <hr class="hr">
+        <div class="filter-section">
+            <p class="section-text">CATEGORY</p>
+            <div class="filters">
+                <select class="dropdown" id="month-filter-category">
+                    <option value="">Month</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+                <select class="dropdown" id="location-filter-category">
+                    <option value="">Location</option>
+                    <option value="GP">Gutten Plans</option>
+                    <option value="EBPL">EB Public Library</option>
+                    <option value="BSQM">Brunswick Sq Mall</option>
+                    <option value="EA">Earle Asphalt</option>
+                </select>
+            </div>
+        </div>
+        <div class="container-chart">
+            <div class="chart-container">
+                <h3 class="chart-title">Total Products by Category and Location</h3>
+                <canvas id="stackedBar"></canvas>
+            </div>
+            <div class="chart-container">
+                <h3 class="chart-title">Total Transaction by Product Category</h3>
+                <canvas id="pieChart"></canvas>
+            </div>
+        </div>
+
+        <hr class="hr">
+        <div class="filter-section">
+            <p class="section-text">PRODUCT</p>
+            <div class="filters">
+                <select class="dropdown" id="month-filter-product">
+                    <option value="">Month</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+                <select class="dropdown" id="location-filter-product">
+                    <option value="">Location</option>
+                    <option value="GP">Gutten Plans</option>
+                    <option value="EBPL">EB Public Library</option>
+                    <option value="BSQM">Brunswick Sq Mall</option>
+                    <option value="EA">Earle Asphalt</option>
+                </select>
+            </div>
+        </div>
+        <div class="container-chart">
+            <div class="chart-container">
+                <h3 class="chart-title">Produk per season</h3>
+                <canvas id="100stackedChart"></canvas>
+            </div>
+            
+        </div>
+        
+    </div>
+
+</body>
+</html>
+</body>
+</html>

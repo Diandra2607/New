@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+   
+}
+
+.thecontainer {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr 0.5fr;
+   text-align: left;
+    padding: 5px 5px;
+    background-color: lightcyan;
+    color : black;
+}
+
+.kembali{
+    color : black;
+    background-color: lightcyan;
+}
+
+#month{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border-radius: 5px;
+    width : 80px;
+    height : 20px;
+    text-align: center;
+}
+
+#location{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border-radius: 5px;
+    width : 80px;
+    height : 20px;
+    text-align: center;
+}
+
+
+#category{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    border-radius: 5px;
+    width : 80px;
+    height : 20px;
+    text-align: center;
+}
+
+@media only screen {
+    * {
+        max-height :600.65px;
+        max-width: 1333.33px;
+    }
+  }
+
+  .revenue{
+    background-color:yellow;
+    width:15em;
+    height:15em;
+    border-radius:50%;
+    text-align: center;
+    color:black;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:80px;
+    justify-content: center;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.1fr; 
+    grid-gap: 1px;
+    text-align: center;
+  }
+
+.sub-main1{
+position : relative;
+width : 6.25px;
+display: inline-block;
+}
+
+.sub-main2{
+    display: grid;
+    padding : 0.5%;
+    left : -200px;
+    }
+
+.sub-main3{
+        display: grid;
+        top : 5em;
+        padding : 0.5%;
+        left : -10px;
+        }
+
+        .sub-main4 {
+            display: grid;
+            top: 5em;
+            padding: 0.5%;
+            left : -1400px;
+          }
+
+
+.most{
+    background-color: lightgoldenrodyellow;
+    border-radius: 2px;
+    width : 250px;
+    height : 110px;
+    text-align: center;
+    color: solid black;
+    margin-left : 30px;
+   font-size: larger;
+}
+
+.locationnumber, .food{
+text-align-last: center;
+color :rgb(1, 113, 113);
+}
+
+ .price {
+    text-align : center;
+}
+
+.therevenue{
+    position : absolute;
+    width : inherit;
+    height: auto;
+    top : 40%;
+    transform : translateY(-50%);
+    text-align: center;
+}
+
+.numberoflocation{
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+    width :250px;
+    height : 110px;
+    text-align: center;
+    color: solid black;
+    margin-right: 50px;
+    justify-content: center;
+    font-size: larger;
+}
+
+.food{
+    text-align-last: right;
+    font-style: italic;
+}
+
+.locationnumber{
+font-size: 30px;
+}
+
+.highest{
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+    width : 250px;
+    height : 110px;
+    text-align: center;
+    color: solid black;
+    font-size: larger;
+}
+
+.product{
+    background-color: lightgray;
+    border-radius: 8px;
+    width : 100px;
+    height : 130px;
+    text-align: center;
+    color: solid black;
+    font-size: smaller;
+}
+
+.july{
+    color :aqua;
+    text-align: center;
+}
+
+.sub-container{
+    background-color: lightgray;
+    border-radius: 2px;
+    width : 300px;
+    height : 150px;
+    top : 100em;
+    margin-top : 30px;
+    text-align: center;
+    font-size: larger;
+}
+
+.mostpopularproduct{
+    font-size: larger;
+}
+
+
+.coca-cola{
+    color : red;
+    font-size :small;
+}
+
+
+.highestmonthrevenue{
+    text-align: center;
+    font-size: smaller;
+}
+.monsterenergy{
+    color : lime;
+    font-size :small;
+}
+
+.poland{
+    color : lightskyblue;
+    font-size :small;
+}
+
+.payment{
+    background-color: lightgoldenrodyellow;
+    border-radius: 8px;
+    width : 270px;
+    height : 110px;
+    text-align: center;
+    font-size: smaller;
+    margin-right:100px;
+}
+
+
+
+.locationimage{
+    width : 20px;
+    height : 20px;
+    position: relative;
+    left: -6px;
+}
+
+
+
+.totalofproducts{
+    text-align: center;
+}
+
+.peak{
+    background-color: lightgray;
+    border-radius: 8px;
+    width : 300px;
+    height : 170px;
+    text-align: center;
+    color: solid black;
+    margin-top : 80px;
+}
+
+.calendar{
+    background-color: lightgray;
+    border-radius: 8px;
+    width : 300px;
+    height : 200px;
+    position: relative;
+   left : 80px;
+    color: solid black;
+    font-size: smaller;
+}
+
+.calendar-icon{
+    width : 20px;
+    height : 20px;
+    position: relative;
+    justify-content: left;
+}
+.daterange{
+    text-align: left;
+}
+
+.year{
+    text-align: right;
+}
+
+.jan{
+    text-align: left;
+}
+
+.dec{
+    text-align: right;
+}
+
+.empty{
+    background-color: lightgoldenrodyellow;
+    width : 300px;
+    height : 170px;
+    margin-left : 30px;
+    margin-top : 80px;
+}
