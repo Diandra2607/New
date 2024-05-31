@@ -1,0 +1,56 @@
+/* reset margins */
+*{
+    background-color: lightblue;
+}
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* set up the body */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* target the main container */
+#main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px auto;
+}
+
+/* style the sub-main containers */
+.sub-main1,
+.sub-main2,
+.sub-main3 {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* style the text headers */
+.locationnumber,
+.totalofproducts,
+.mostpopularproducts,
+.mostpopularcategory,
+.revenue,
+.daterange,
+.highestmonthrevenue,
+.favoredpayment,
+.peakseasonrevenue {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* style the images */
+img {
+    width: 135px;
+    height: 135px;
+  }
+  

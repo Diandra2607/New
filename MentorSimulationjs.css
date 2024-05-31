@@ -1,0 +1,28 @@
+*{ margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display : flex;
+    height : 100vh;
+    background-color:rgb(41,40,40)
+}
+
+.text-content{
+    width : 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding : 0 5px;
+    color : white;
+}
+
+.image{
+    width : 50%;
+    border : 1px solid green;
+    background-image : url('images/1.jpg');
+    background-size: cover;
+}

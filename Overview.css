@@ -62,15 +62,16 @@
     font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight:80px;
     justify-content: center;
+    margin-top: 30px;
 }
 
 .main{
     display: grid;
-    grid-template-columns: 0.25fr 0.25fr 0.25fr 0.1fr; 
+    grid-template-columns: 0.25fr 0.25fr 0.1fr 0.005fr; 
     grid-gap: 1px;
     text-align: center;
-  }
-
+    }
+    
 .sub-main1{
 position : relative;
 width : 6.25px;
@@ -79,24 +80,22 @@ display: inline-block;
 
 .sub-main2{
     display: grid;
-    padding : 0.5%;
+    padding : 0.5% 5px;
     left : -200px;
     }
 
-.sub-main3{
+    .sub-main3{
         display: grid;
-        top : 5em;
-        padding : 0.5%;
-        left : -10px;
+        top: 5em;
+        padding: 0.5%;
+        margin-right: -40px;
+      }
+      
+      .sub-main4 {
+        display: grid;
+        top: 5em;
+        padding: 0.5%;
         }
-
-        .sub-main4 {
-            display: grid;
-            top: 5em;
-            padding: 0.5%;
-            left : -1400px;
-          }
-
 
 .most{
     background-color: lightgoldenrodyellow;
@@ -122,7 +121,7 @@ color :rgb(1, 113, 113);
     position : absolute;
     width : inherit;
     height: auto;
-    top : 40%;
+    top : 55%;
     transform : translateY(-50%);
     text-align: center;
 }
@@ -182,6 +181,7 @@ font-size: 30px;
     margin-top : 30px;
     text-align: center;
     font-size: larger;
+    margin-right: 50px;
 }
 
 .mostpopularproduct{
@@ -238,9 +238,17 @@ font-size: 30px;
     background-color: lightgray;
     border-radius: 8px;
     width : 300px;
-    height : 170px;
+    height : 200px;
     text-align: center;
     color: solid black;
+    margin-top : 80px;
+}
+
+.empty{
+    background-color: lightgoldenrodyellow;
+    width : 300px;
+    height : 200px;
+    margin-left : 30px;
     margin-top : 80px;
 }
 
@@ -250,7 +258,8 @@ font-size: 30px;
     width : 300px;
     height : 200px;
     position: relative;
-   left : 80px;
+   left : 30px;
+   margin-top : 80px;
     color: solid black;
     font-size: smaller;
 }
@@ -266,7 +275,7 @@ font-size: 30px;
 }
 
 .year{
-    text-align: right;
+    text-align: center right;
 }
 
 .jan{
@@ -277,10 +286,3 @@ font-size: 30px;
     text-align: right;
 }
 
-.empty{
-    background-color: lightgoldenrodyellow;
-    width : 300px;
-    height : 170px;
-    margin-left : 30px;
-    margin-top : 80px;
-}
