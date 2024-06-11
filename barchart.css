@@ -1,0 +1,34 @@
+.filter-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 5rem;
+    margin-bottom: 1rem;
+}
+
+.filters {
+    display: flex;
+    gap: 1rem;
+}
+
+.chart-container {
+    flex: 1;
+    margin: 1.25rem; 
+    text-align: center; 
+}
+
+.chart-container canvas {
+    max-width: 47rem;  
+    max-height: 20rem;  
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+canvas {
+    background-color: #fff;
+    border: 0.0625rem solid #ccc;  
+    width: 100%;
+    height: 15.625rem; 
+}

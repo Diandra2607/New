@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Chart</title>
+    <link rel="stylesheet" href="barchart.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="barchart.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="header-title">BarChart</h1>
+    </header>    
+    
+
+    <hr class="hr">
+    <div class="body-chart">
+        <div class="filter-section">
+            <div class="filters">
+                <select class="dropdown" id="month-filter">
+                    <option value="">Month</option>
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                </select>
+                <select class="dropdown" id="location-filter">
+                    <option value="">Location</option>
+                    <option value="GuttenPlans">Gutten Plans</option>
+                    <option value="EB Public Library">EB Public Library</option>
+                    <option value="Brunswick Sq Mall">Brunswick Sq Mall</option>
+                    <option value="Earle Asphalt">Earle Asphalt</option>
+                </select>
+            </div>
+        </div>
+        
+            <div class="chart-container">
+                <h3 class="chart-title">Barchart</h3>
+                <canvas id="barChart"></canvas>
+            </div>   
+        </div>
+      
+
+</body>
+</html>

@@ -1,0 +1,375 @@
+$(document).ready(function () {
+    $.ajax({
+        url: 'top10.json',
+        method: 'GET',
+        success: function (response) {
+            var data = response.top10;
+            var productTotals = {};
+
+            // Calculate total count for each product
+            data.forEach(function (item) {
+                if (productTotals[item.Produk]) {
+                    productTotals[item.Produk] += parseInt(item.total);
+                } else {
+                    productTotals[item.Produk] = parseInt(item.total);
+                }
+            });
+
+            // Convert data to an array of objects
+            var processedData = [];
+            for (var product in productTotals) {
+                if (productTotals.hasOwnProperty(product)) {
+                    processedData.push({
+                        Product: product, // Change column name to "Product"
+                        total: productTotals[product]
+                    });
+                }
+            }
+
+            // Initialize DataTable with processed data
+            $('#top').DataTable({
+                data: processedData,
+                columns: [
+                    { data: 'Product', title: 'Product' }, // Change column name to "Product"
+                    { data: 'total', title: 'Total' }
+                ],
+                // Sort by total count in descending order initially
+                order: [[1, 'desc']]
+            });
+        }
+    });
+});
+
+
+fetch('revenue_per_location.json')
+    .then(response => response.json())
+    .then(data => {
+        // Create an object to store total revenue per location
+        const revenuePerLocation = {};
+
+        // Sum up revenue for each location
+        data.forEach(item => {
+            const location = item.Lokasi;
+            const revenue = parseFloat(item.Pendapatan);
+            if (revenuePerLocation[location]) {
+                revenuePerLocation[location] += revenue;
+            } else {
+                revenuePerLocation[location] = revenue;
+            }
+        });
+
+        // Sort locations by revenue in descending order
+        const sortedLocations = Object.keys(revenuePerLocation).sort((a, b) => revenuePerLocation[b] - revenuePerLocation[a]);
+
+        // Define the colors for each location
+        const locationColors = {
+            'GuttenPlans': '#116A7B',
+            'EB Public Library': '#CDC2AE',
+            'Brunswick Sq Mall': '#ECE5C7',
+            'Earle Asphalt': '#C2DEDC'
+        };
+
+        // Prepare data for the chart using sorted locations
+        const labels = sortedLocations;
+        const revenue = sortedLocations.map(location => revenuePerLocation[location]);
+        const backgroundColors = sortedLocations.map(location => locationColors[location] || '#000000');  // Default to black if location is not found
+
+        // Create the chart
+        const ctx = document.getElementById('barChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Revenue',
+                    data: revenue,
+                    backgroundColor: backgroundColors,
+                    borderColor: backgroundColors.map(color => color.replace(/0\.2\)$/, '1)')),  // Make borders the same color as the background
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Location'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Revenue'
+                        },
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        labels: {
+                            generateLabels: function(chart) {
+                                const labels = chart.data.labels;
+                                return labels.map(label => ({
+                                    text: label,
+                                    fillStyle: locationColors[label] || '#000000',
+                                    strokeStyle: locationColors[label] || '#000000',
+                                    lineWidth: 1,
+                                    hidden: false,
+                                    index: labels.indexOf(label)
+                                }));
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    })
+    .catch(error => console.error('Error loading the JSON data:', error));
+
+  // Function to convert month number to month name
+function getMonthName(monthNumber) {
+    const months = [
+        "January", "February", "March", "April", "May", "June",
+        "July", "August", "September", "October", "November", "December"
+    ];
+    return months[monthNumber - 1];
+}
+
+let chart;
+
+// Function to create or update chart
+function createOrUpdateChart(labels, revenue) {
+    const revenueColor = '#116A7B';
+    const ctx = document.getElementById('lineChart').getContext('2d');
+
+    if (chart) {
+        chart.data.labels = labels;
+        chart.data.datasets[0].data = revenue;
+        chart.update();
+    } else {
+        chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Revenue',
+                    data: revenue,
+                    borderColor: revenueColor,
+                    backgroundColor: 'rgba(255, 255, 255, 0)', // Set background color to transparent
+                    borderWidth: 2,
+                    fill: false // Set fill to false to remove area fill
+                }]
+            },
+            options: {
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Month'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Revenue'
+                        },
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: revenueColor // Set legend label color to revenue color
+                        }
+                    },
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        color: revenueColor,
+                        font: {
+                            weight: 'bold'
+                        },
+                        formatter: function(value) {
+                            return value.toLocaleString('en-US', { style: 'currency', currency: 'USD' });
+                        }
+                    }
+                }
+            },
+            plugins: [ChartDataLabels]
+        });
+    }
+}
+
+// Function to calculate revenue per month
+function calculateRevenuePerMonth(data) {
+    const revenuePerMonth = {};
+
+    data.forEach(item => {
+        const month = parseInt(item.TransMonth);
+        const revenue = parseFloat(item.Pendapatan);
+        if (revenuePerMonth[month]) {
+            revenuePerMonth[month] += revenue;
+        } else {
+            revenuePerMonth[month] = revenue;
+        }
+    });
+
+    const sortedMonths = Object.keys(revenuePerMonth).sort((a, b) => a - b);
+    const labels = sortedMonths.map(month => getMonthName(month));
+    const revenue = sortedMonths.map(month => revenuePerMonth[month]);
+
+    return { labels, revenue };
+}
+
+// Load JSON data and initialize event listener
+fetch('revenuepermonth.json')
+    .then(response => response.json())
+    .then(data => {
+        // Calculate total revenue per month for all locations
+        const { labels, revenue } = calculateRevenuePerMonth(data);
+        createOrUpdateChart(labels, revenue);
+
+        // Event listener for location filter
+        document.getElementById('location-filter').addEventListener('change', function() {
+            const selectedLocation = this.value;
+            if (selectedLocation) {
+                const filteredData = data.filter(item => item.Lokasi === selectedLocation);
+                const { labels, revenue } = calculateRevenuePerMonth(filteredData);
+                createOrUpdateChart(labels, revenue);
+            } else {
+                // If no location is selected, show total revenue for all locations
+                const { labels, revenue } = calculateRevenuePerMonth(data);
+                createOrUpdateChart(labels, revenue);
+            }
+        });
+
+        // Trigger initial load with total revenue for all locations
+        document.getElementById('location-filter').dispatchEvent(new Event('change'));
+    })
+    .catch(error => console.error('Error loading the JSON data:', error));
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const locationFilter = document.getElementById('location-filter-product');
+        let originalData;
+    
+        fetch('productseason.json')
+            .then(response => response.json())
+            .then(data => {
+                originalData = data;
+                updateChart(data);
+            });
+    
+        locationFilter.addEventListener('change', function() {
+            const selectedLocation = locationFilter.value;
+            const filteredData = selectedLocation ? originalData.filter(item => item.Location === selectedLocation) : originalData;
+            updateChart(filteredData);
+        });
+    
+        function updateChart(data) {
+            const groupedData = data.reduce((acc, item) => {
+                const { Season, Category, Total_Transaction } = item;
+                if (!acc[Season]) acc[Season] = {};
+                if (!acc[Season][Category]) acc[Season][Category] = 0;
+                acc[Season][Category] += parseFloat(Total_Transaction);
+                return acc;
+            }, {});
+    
+            const seasonTotals = {};
+            Object.keys(groupedData).forEach(season => {
+                seasonTotals[season] = Object.values(groupedData[season]).reduce((acc, transactions) => acc + transactions, 0);
+            });
+    
+            const sortedSeasons = Object.keys(seasonTotals).sort((a, b) => seasonTotals[b] - seasonTotals[a]);
+    
+            const categories = Array.from(new Set(data.map(item => item.Category)));
+    
+            const categoryColors = {
+                'Food': '#116A7B',
+                'Non Carbonated': '#CDC2AE',
+                'Carbonated': '#ECE5C7',
+                'Water': '#C2DEDC'
+            };
+    
+            const datasets = categories.map(category => {
+                return {
+                    label: category,
+                    data: sortedSeasons.map(season => groupedData[season][category] || 0),
+                    backgroundColor: categoryColors[category] || '#000000',
+                };
+            });
+    
+            const ctx = document.getElementById('100stackedChart').getContext('2d');
+            if (window.stackedChart) {
+                window.stackedChart.data.labels = sortedSeasons;
+                window.stackedChart.data.datasets = datasets;
+                window.stackedChart.update();
+            } else {
+                window.stackedChart = new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: sortedSeasons,
+                        datasets: datasets,
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false, 
+                        scales: {
+                            x: {
+                                stacked: true,
+                                title: {
+                                    display: true,
+                                    text: 'Season'
+                                },
+                                ticks: {
+                                    maxRotation: 90,
+                                    minRotation: 45
+                                }
+                            },
+                            y: {
+                                stacked: true,
+                                title: {
+                                    display: true,
+                                    text: 'Total Transactions'
+                                },
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }
+                        },
+                        plugins: {
+                            tooltip: {
+                                callbacks: {
+                                    label: function (context) {
+                                        const total = context.dataset.data.reduce((sum, value) => sum + value, 0);
+                                        const percentage = (context.raw / total * 100).toFixed(2) + '%';
+                                        return context.dataset.label + ': ' + context.raw.toFixed(2) + ' (' + percentage + ')';
+                                    },
+                                },
+                            },
+                            legend: {
+                                position: 'top'
+                            },
+                            datalabels: {
+                                formatter: (value, ctx) => {
+                                    return value.toString();
+                                },
+                                color: '#000',
+                                anchor: 'end',
+                                align: 'start',
+                                offset: 10,
+                                font: {
+                                    size: 10
+                                },
+                                backgroundColor: null,
+                                borderRadius: 0,
+                                padding: 0
+                            }
+                        },
+                    },
+                    plugins: [ChartDataLabels]
+                });
+            }
+        }
+    });
+    

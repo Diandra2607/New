@@ -1,30 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Overview</title>
-        <link rel="stylesheet" href="Overview2.css" />
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VENDING MACHINE DASHBOARD</title>
+    <link rel="stylesheet" href="Overview2.css">
+
 <body>
-    <div id = "main" >
-        <div class = "sub-main1">
-            <div class = "locationnumber"><img src = "A4 - 9.png"></div>
-            <div class = "totalofproducts"><img src = "A4 - 9 (3).png"></div>
-            <div class = "mostpopularproducts"><img src = "A4 - 9 (5).png"></div>
+    <header>
+        <a class="logo">VENDING MACHINE DASHBOARD</a>
+        <nav class="navbar">
+            <ul class="links nav_links">
+                <li><a href="#overview">Overview</a></li>
+            </ul>
+        </nav>
+        <div class="toggle_btn">
+            <i class="fa-solid fa-bars"></i>
         </div>
-        <div class = "sub-main2">
-            <div class = "mostpopularcategory"><img src = "A4 - 9 (1).png"></div>
-            <div class = "revenue"><img src = "image-removebg-preview (39).png"></div>
-            <div class = "daterange"><img src = "A4 - 9 (6).png"></div>
+    
+        <div class="dropdown_menu">
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+            </ul>
         </div>
-        <div class = "sub-main3">
-            <div class = "highestmonthrevenue"><img src = "A4 - 9 (2).png"></div>
-            <div class = "favoredpayment"><img src = "A4 - 9 (4).png"></div>
-            <div class = "peakseasonrevenue"><img src = "A4 - 9 (7).png"></div>
+    </header>
+     
+
+    <hr class="hr">
+<section>
+    <div class="body-chart" id="overview">
+        <div class="filter-section">
+            <p class="section-text">Overview</p>
+        </div>
+        <div id = "overview" >
+            <div class = "overview-main1">
+                <div class = "revenue"><img src = "revenue.png"></div>
+                <br>
+                <div class = "locationnumber"><img src = "locationnumber.png"></div>
+            </div>
+            <div class = "overview-main2">
+                <div class = "totalofproducts"><img src = "totalofproducts.png"></div>
+                <br>
+                <div class = "mostpopularcategory"><img src = "mostpopularcategory.png"></div>
+            </div>
+            <div class = "overview-main3">
+                <div class = "daterange"><img src = "daterange.png"></div>
+                <br>
+                <div class = "highestmonthrevenue"><img src = "highestmonthrevenue.png"></div>
+            </div>
+            <div class = "overview-main4">
+                <div class = "peakseasonrevenue"><img src = "peakseasonrevenue.png"></div>
+                <br>
+                <div class = "favoredpayment"><img src = "favoredpayment.png"></div>
+            </div>
         </div>
     </div>
+</section>
+
 </body>
 </html>

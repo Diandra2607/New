@@ -1,4 +1,6 @@
-[{
+{
+  "top10": 
+  [{
     "Lokasi": "Brunswick Sq Mall",
     "TransMonth": "1",
     "Produk": "Zevia Zero Calorie Energy - Mango Ginger",
@@ -7389,3 +7391,4 @@
     "Produk": "Bai Antioxidant - Brasilia BB",
     "total": "1"
   }]
+}

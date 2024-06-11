@@ -1,0 +1,90 @@
+body {
+    background-color: #EEF7FF;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+
+/* SECTION */
+
+
+.body-chart {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin: 0;
+}
+
+.filter-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 5rem;
+    margin-bottom: 1rem;
+}
+
+.filters {
+    display: flex;
+    gap: 1rem;
+}
+
+.dropdown {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.container-chart {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 1.25rem 0; 
+}
+
+.chart-container {
+    flex: 1;
+    margin: 1.25rem; 
+    text-align: center; 
+}
+
+.chart-container canvas {
+    max-width: 35rem;  
+    max-height: 20rem;  
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+canvas {
+    background-color: #fff;
+    border: 0.0625rem solid #ccc;  
+    width: 100%;
+    height: 15.625rem; 
+}
+
+.container-table {
+    margin: 1.5rem;  
+    width: 50%; 
+    background-color: #fff; 
+}
+
+.chart-table-container {
+    flex: 1;
+    margin: 1.25rem;
+    text-align: center;
+}
+
+.chart-table-container canvas {
+    max-width: 34.5rem;
+    max-height: 29rem;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1rem;  
+}
+
+.chart-table-container canvas.extra-height {
+    height: 29rem; 
+}

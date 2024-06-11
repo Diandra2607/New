@@ -1,0 +1,821 @@
+[{
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "12",
+  "total": "10"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "11",
+  "total": "19"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "10",
+  "total": "24"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "9",
+  "total": "17"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "8",
+  "total": "25"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "7",
+  "total": "58"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "6",
+  "total": "36"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "5",
+  "total": "33"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "4",
+  "total": "16"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "3",
+  "total": "13"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "2",
+  "total": "23"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Carbonated",
+  "TransMonth": "1",
+  "total": "18"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "12",
+  "total": "61"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "11",
+  "total": "62"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "10",
+  "total": "69"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "9",
+  "total": "55"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "8",
+  "total": "62"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "7",
+  "total": "68"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "6",
+  "total": "111"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "5",
+  "total": "70"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "4",
+  "total": "56"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "3",
+  "total": "68"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "2",
+  "total": "59"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Food",
+  "TransMonth": "1",
+  "total": "50"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "12",
+  "total": "25"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "11",
+  "total": "16"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "10",
+  "total": "17"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "9",
+  "total": "15"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "8",
+  "total": "32"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "7",
+  "total": "38"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "6",
+  "total": "27"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "5",
+  "total": "38"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "4",
+  "total": "22"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "3",
+  "total": "20"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "2",
+  "total": "29"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Non Carbonated",
+  "TransMonth": "1",
+  "total": "25"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "12",
+  "total": "26"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "11",
+  "total": "13"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "10",
+  "total": "14"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "9",
+  "total": "16"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "8",
+  "total": "29"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "7",
+  "total": "47"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "6",
+  "total": "47"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "5",
+  "total": "39"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "4",
+  "total": "32"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "3",
+  "total": "37"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "2",
+  "total": "26"
+}, {
+  "Lokasi": "Brunswick Sq Mall",
+  "Category": "Water",
+  "TransMonth": "1",
+  "total": "26"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Carbonated",
+  "TransMonth": "12",
+  "total": "31"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Carbonated",
+  "TransMonth": "11",
+  "total": "19"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Carbonated",
+  "TransMonth": "10",
+  "total": "29"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Carbonated",
+  "TransMonth": "9",
+  "total": "31"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Carbonated",
+  "TransMonth": "8",
+  "total": "27"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Carbonated",
+  "TransMonth": "7",
+  "total": "51"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Carbonated",
+  "TransMonth": "6",
+  "total": "36"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Carbonated",
+  "TransMonth": "5",
+  "total": "28"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Carbonated",
+  "TransMonth": "4",
+  "total": "20"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Carbonated",
+  "TransMonth": "3",
+  "total": "13"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Food",
+  "TransMonth": "12",
+  "total": "179"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Food",
+  "TransMonth": "11",
+  "total": "189"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Food",
+  "TransMonth": "10",
+  "total": "228"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Food",
+  "TransMonth": "9",
+  "total": "217"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Food",
+  "TransMonth": "8",
+  "total": "210"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Food",
+  "TransMonth": "7",
+  "total": "233"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Food",
+  "TransMonth": "6",
+  "total": "260"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Food",
+  "TransMonth": "5",
+  "total": "221"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Food",
+  "TransMonth": "4",
+  "total": "195"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Food",
+  "TransMonth": "3",
+  "total": "76"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Non Carbonated",
+  "TransMonth": "12",
+  "total": "43"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Non Carbonated",
+  "TransMonth": "11",
+  "total": "49"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Non Carbonated",
+  "TransMonth": "10",
+  "total": "62"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Non Carbonated",
+  "TransMonth": "9",
+  "total": "65"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Non Carbonated",
+  "TransMonth": "8",
+  "total": "85"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Non Carbonated",
+  "TransMonth": "7",
+  "total": "62"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Non Carbonated",
+  "TransMonth": "6",
+  "total": "74"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Non Carbonated",
+  "TransMonth": "5",
+  "total": "54"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Non Carbonated",
+  "TransMonth": "4",
+  "total": "59"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Non Carbonated",
+  "TransMonth": "3",
+  "total": "31"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Water",
+  "TransMonth": "12",
+  "total": "34"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Water",
+  "TransMonth": "11",
+  "total": "27"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Water",
+  "TransMonth": "10",
+  "total": "28"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Water",
+  "TransMonth": "9",
+  "total": "12"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Water",
+  "TransMonth": "8",
+  "total": "23"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Water",
+  "TransMonth": "7",
+  "total": "43"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Water",
+  "TransMonth": "6",
+  "total": "38"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Water",
+  "TransMonth": "5",
+  "total": "40"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Water",
+  "TransMonth": "4",
+  "total": "47"
+}, {
+  "Lokasi": "EB Public Library",
+  "Category": "Water",
+  "TransMonth": "3",
+  "total": "8"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Carbonated",
+  "TransMonth": "12",
+  "total": "4"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Carbonated",
+  "TransMonth": "11",
+  "total": "5"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Carbonated",
+  "TransMonth": "10",
+  "total": "1"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Carbonated",
+  "TransMonth": "9",
+  "total": "3"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Carbonated",
+  "TransMonth": "8",
+  "total": "3"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Carbonated",
+  "TransMonth": "7",
+  "total": "4"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Carbonated",
+  "TransMonth": "6",
+  "total": "1"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Carbonated",
+  "TransMonth": "5",
+  "total": "1"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Carbonated",
+  "TransMonth": "2",
+  "total": "3"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Carbonated",
+  "TransMonth": "1",
+  "total": "2"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "12",
+  "total": "45"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "11",
+  "total": "87"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "10",
+  "total": "80"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "9",
+  "total": "104"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "8",
+  "total": "117"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "7",
+  "total": "64"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "6",
+  "total": "69"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "5",
+  "total": "59"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "4",
+  "total": "65"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "3",
+  "total": "80"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "2",
+  "total": "86"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Food",
+  "TransMonth": "1",
+  "total": "78"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Non Carbonated",
+  "TransMonth": "12",
+  "total": "8"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Non Carbonated",
+  "TransMonth": "11",
+  "total": "5"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Non Carbonated",
+  "TransMonth": "10",
+  "total": "1"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Non Carbonated",
+  "TransMonth": "8",
+  "total": "3"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Non Carbonated",
+  "TransMonth": "7",
+  "total": "1"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Non Carbonated",
+  "TransMonth": "4",
+  "total": "2"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Non Carbonated",
+  "TransMonth": "3",
+  "total": "6"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Non Carbonated",
+  "TransMonth": "2",
+  "total": "11"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Non Carbonated",
+  "TransMonth": "1",
+  "total": "13"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Water",
+  "TransMonth": "12",
+  "total": "6"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Water",
+  "TransMonth": "11",
+  "total": "2"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Water",
+  "TransMonth": "10",
+  "total": "1"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Water",
+  "TransMonth": "9",
+  "total": "2"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Water",
+  "TransMonth": "8",
+  "total": "3"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Water",
+  "TransMonth": "7",
+  "total": "1"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Water",
+  "TransMonth": "5",
+  "total": "1"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Water",
+  "TransMonth": "3",
+  "total": "2"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Water",
+  "TransMonth": "2",
+  "total": "4"
+}, {
+  "Lokasi": "Earle Asphalt",
+  "Category": "Water",
+  "TransMonth": "1",
+  "total": "1"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "12",
+  "total": "54"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "11",
+  "total": "156"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "10",
+  "total": "116"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "9",
+  "total": "104"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "8",
+  "total": "158"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "7",
+  "total": "186"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "6",
+  "total": "125"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "5",
+  "total": "95"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "4",
+  "total": "187"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "3",
+  "total": "116"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "2",
+  "total": "116"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Carbonated",
+  "TransMonth": "1",
+  "total": "110"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "12",
+  "total": "135"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "11",
+  "total": "115"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "10",
+  "total": "123"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "9",
+  "total": "162"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "8",
+  "total": "199"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "7",
+  "total": "209"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "6",
+  "total": "144"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "5",
+  "total": "145"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "4",
+  "total": "139"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "3",
+  "total": "160"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "2",
+  "total": "114"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Food",
+  "TransMonth": "1",
+  "total": "139"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Non Carbonated",
+  "TransMonth": "12",
+  "total": "33"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Non Carbonated",
+  "TransMonth": "11",
+  "total": "30"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Non Carbonated",
+  "TransMonth": "10",
+  "total": "26"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Non Carbonated",
+  "TransMonth": "9",
+  "total": "36"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Non Carbonated",
+  "TransMonth": "8",
+  "total": "45"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Non Carbonated",
+  "TransMonth": "7",
+  "total": "56"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Non Carbonated",
+  "TransMonth": "6",
+  "total": "31"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Non Carbonated",
+  "TransMonth": "5",
+  "total": "30"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Non Carbonated",
+  "TransMonth": "4",
+  "total": "26"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Non Carbonated",
+  "TransMonth": "2",
+  "total": "21"
+}, {
+  "Lokasi": "GuttenPlans",
+  "Category": "Non Carbonated",
+  "TransMonth": "1",
+  "total": "20"
+}]
